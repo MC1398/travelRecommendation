@@ -1,0 +1,35 @@
+body {
+    background-image: url(./puntadeleste.jpg);
+}
+
+nav {
+    width: 100%;
+    display: block;
+}
+
+nav h1 {
+    display: inline-block;
+    text-align: left;
+    width: 33%;
+    margin-left: 20px;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    width: 60%;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+}
+
+nav ul li a {
+    text-align: left;
+    text-decoration: none;
+}
+
+nav ul li input {
+    margin-left: 33%;
+}
