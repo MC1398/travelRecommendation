@@ -1,35 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-image: url(./puntadeleste.jpg);
+    background-size: 100%;
 }
 
-nav {
+header{
+    display: flex;      
+    justify-content: space-between;
+    align-items: center; 
+    background-color: rgb(24, 24, 24);     
+    margin: 0;
+    padding: 0px 115px;
     width: 100%;
-    display: block;
 }
 
-nav h1 {
+header h1{
+    color: white;
+
+}
+
+li{
+    list-style: none;
     display: inline-block;
-    text-align: left;
-    width: 33%;
-    margin-left: 20px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-nav ul{
-    display: inline-block;
-    list-style-type: none;
-    width: 60%;
+header button{
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(20, 114, 255);
+    color: white;
+    width: 75px;
+    height: 20px;
 }
 
-nav ul li {
-    display: inline;
-    margin: 5px;
-}
-
-nav ul li a {
-    text-align: left;
+header a{
     text-decoration: none;
+    color: white;
+    font-size: 20px;
+
 }
 
-nav ul li input {
-    margin-left: 33%;
+header input{
+    border: none;
+    border-radius: 30px;
+    height: 20px;
+    background-color: rgb(20, 114, 255);
+    color: white;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.home{
+    width: 50%;
+    margin: 5%;
+}
+
+.home h1{
+    font-size: 70px;
+    margin-bottom: 9%;
+}
+
+.home p{
+    font-size: 20px;
+}
+
+.reco{
+    width: 50%;
+    margin: 5%;
 }
