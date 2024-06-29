@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RecoTravel</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./travel_recommendation.js"></script>
+    
 </head>
 <body>
     <header>
@@ -18,9 +18,9 @@
             </ul>                   
         </nav>
         <div>
-            <input type="text">
-            <button>Search</button>
-            <button>Clear</button>
+            <input type="text" id="destination">
+            <button id="search">Search</button>
+            <button id='clear'>Clear</button>
         </div>
     </header>
     <div class="container">
@@ -35,11 +35,10 @@
                 Welcome aboard this exciting adventure!
             </p>
         </div>
-        <div class="reco">
-
+        <div class="reco" id="reco">
+            
         </div> 
     </div>
-    
-    
+    <script src="./travel_recommendation.js"></script>
 </body>
 </html>
