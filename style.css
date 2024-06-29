@@ -56,6 +56,10 @@ header input{
     text-align: center;
 }
 
+header div{
+    margin-left: 10%;
+}
+
 .container{
     display: flex;
     width: 100%;
@@ -78,4 +82,36 @@ header input{
 .reco{
     width: 50%;
     margin: 5%;
+}
+
+.containerA{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.about{
+    width: 80%;
+    margin: 5%; 
+}
+
+.about h1{
+    font-size: 70px;
+    margin-bottom: 5%;
+}
+
+.about p{
+    font-size: 30px;
+}
+
+.team{
+    width: 80%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.team h1{
+    font-size: 60px;
 }
