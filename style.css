@@ -21,7 +21,6 @@ header{
 
 header h1{
     color: white;
-
 }
 
 li{
@@ -114,4 +113,30 @@ header div{
 
 .team h1{
     font-size: 60px;
+}
+
+.containerC{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.contact h1{
+    font-size: 60px;
+    margin-bottom: 10%;
+}
+
+.contact input, button{
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    height: 20px;
+}
+
+.contact textarea{
+    width: 100%;
+    border-radius: 8px;
 }
