@@ -140,3 +140,8 @@ header div{
     width: 100%;
     border-radius: 8px;
 }
+
+figure {
+    background-color: rgb(240, 240, 240);
+    width: 600;
+}
