@@ -49,4 +49,4 @@ function clearResult() {
 }
 
 search.addEventListener('click', recoResults);
-clear.addEventListener('click', clearResult)
+clear.addEventListener('click', clearResult);
